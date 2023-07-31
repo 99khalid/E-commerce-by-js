@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    <link rel="icon" href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/content.css">
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+  
+</head>
+<body>
+    <div id="1">
+        <header>
+            <section>
+                <div id="container">
+                    <div id="shopName"><a href="content.html"> <b>SHOP   </b> </a></div>
+                                      
+                        <div id="search">
+                            <i class="fas fa-search search"></i>
+                            <input type="text" id="input" name="searchBox" placeholder="search">
+                        </div>
+                        <div id="collection">
+                            <button id="button" class="button"  >search</button>
+                            <button href="#" class="button"  style="font-size: 15px;"> About Us</button>
+                        </div>
+                        <div id="user">
+                            
+                            <a href="cart.html"> <i class="fas fa-shopping-cart addedToCart"><div id="badge"> 0 </div></i></a>
+                           <pre>              </pre>
+                            <a href="#" id="menuIcon"> <i class="fas fa-user-circle userIcon"></i> </a>
+                            <p id="us" style="color: black; font-size: 20px; margin-right: 100px;"></p>
+                        </div>
+                        <div id="menu" class="hidden">
+                            <a href="sign.html">Log out</a>
+                           
+                          </div>
+                </div>
+    
+            </section>
+        </header>
+    </div>
+
+  
+        <br>
+        <div id="s">
+
+
+            <section>
+                <div id="containerSlider">
+                    <div id="slidingImage"> <img src="img/7.jpg" alt="image1"> </div>
+                    <div id="slidingImage"> <img src="img/8.jpg" alt="image2"> </div>
+                    <div id="slidingImage"> <img src="img/12.jpg" alt="image3"> </div>
+                    <div id="slidingImage"> <img src="img/22.jpg" alt="image4"> </div>
+                </div>
+                <div style="
+                /* margin: 0 auto; */
+                margin-top: 50px;
+                display: block;
+                text-align: center; font-size: 25px;
+            ">
+                    <label for="cars" style="color: aliceblue;">Choose a category:</label>
+                    <select name="cars" id="cars" style="font-size: 20px; color: white; background-color: black;">
+                      <option value="A"  selected>Defualt</option>
+                      <option value="smartphones">smartphones</option>
+                      <option value="laptops">laptops</option>
+                      <option value="skincare">skincare</option>
+                      <option value="groceries">groceries</option>
+                    </select>
+                </div>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <script>
+            $(document).ready(function()
+            {
+            $('#containerSlider').slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                });
+            });
+        </script>
+        </div>
+        <br><br>
+    <div id="bb"></div>
+    <div id="f">
+        <footer>
+            <section>    
+                <div id="containerFooter">
+                    
+                    <div id="webFooter">
+                        <h3> online store </h3>
+                        <p> Iphone </p>
+                        <p> Samsung </p>
+                        <p> Labtop </p>
+                        <p> Computer </p>
+                    </div>
+                    <div id="webFooter">
+                        <h3> helpful link </h3>
+                        <p> home </p>
+                        <p> about </p>
+                        <p> contact </p>
+                    </div>
+                    <div id="webFooter">
+                        <h3> Brand </h3>
+                        <p> Dell </p>
+                        <p> Apple </p>
+                        <p> Hp </p>
+                        <p> + many more </p>
+                    </div>
+                    <div id="webFooter">
+                        <h3> address </h3>
+                        
+                        <p> ITI </p>
+                        <p> ASWAN </p>
+                        <p> EGYPT </p>
+                    </div>
+                </div>
+                <div id="credit"><a href="#"> © KHALID </a> 
+            </section>
+    
+        </footer>
+    </div>
+</body>
+<script src="js/content.js"></script>
+<script src="js/contentDetails.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/sign.js"></script>
+</html>
